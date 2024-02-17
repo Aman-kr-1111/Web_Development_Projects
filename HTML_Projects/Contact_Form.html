@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Contact Form</title>
+</head>
+
+<body>
+  <h1>Contact Form</h1>
+
+  <!-- Creating Form -->
+  <form action="">
+
+    <!-- Basic Inofrmation -->
+    <label for="name">Name :</label>
+    <input type="text" id="name" placeholder="Enter Your Name" required><br>
+    <label for="father">Father's Name :</label>
+    <input type="text" id="father" placeholder="Enter Your Father's Name" required><br>
+    <label for="mother">Mother's Name : </label>
+    <input type="text" id="mother" placeholder="Enter Your Mother's Name" required><br>
+    <label for="mob">Mob : </label>
+    <input type="number" id="mob" placeholder="Enter Your Number" required><br>
+    <label for="email">Email : </label>
+    <input type="email" id="email" placeholder="Enter Your Email" required><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender :</label>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" checked>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female">
+    <label for="other">Other</label>
+    <input type="radio" name="gender" id="other"><br>
+
+    <!-- Date Input -->
+    <label for="dob">DOB :</label>
+    <input type="date" id="dob"><br>
+
+
+    <!-- Course Selection -->
+    <label for="course">Course :</label>
+    <select id="course">
+      <option value="">Select Your Course</option>
+      <option value="">BCA</option>
+      <option value="">BBA</option>
+      <option value="">BLIS</option>
+    </select>
+    <br>
+
+    <!-- Checkboxes -->
+    <label for="C">Programming Languages :</label>
+    <label for="C">C</label>
+    <input type="checkbox" id="C">
+    <label for="C++">C++</label>
+    <input type="checkbox" id="C++">
+    <label for="Java">Java</label>
+    <input type="checkbox" id="Java">
+    <label for="Pyhton">Pyhton</label>
+    <input type="checkbox" id="Pyhton">
+    <br>
+
+    <label for="file">Upload Your File :</label>
+    <input type="file" id="file"><br>
+
+
+    <!-- Textarea -->
+    <label for="message">Feeddack :</label><br>
+    <textarea id="message" cols="40" rows="5" placeholder="Enter Your Feedback"></textarea><br>
+
+    <input type="submit">
+    <input type="reset">
+  </form>
+</body>
+
+</html>
