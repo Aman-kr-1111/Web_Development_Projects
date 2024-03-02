@@ -1,0 +1,86 @@
+/* Import Google Fonts - Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif
+}
+
+body {
+  background: #e5e5fd;
+  border: 10px solid #000;
+}
+
+.container {
+  margin: 0 140px;
+  margin-top: 100px;
+}
+
+img {
+  height: 320px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.top-section h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.top-section h3 {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.middle-section {
+  margin: 50px 0;
+}
+
+.middle-section h1 {
+  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.middle-section p {
+  margin-bottom: 10px;
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+  text-align: justify;
+}
+
+.bottom-section h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bottom-section ul {
+  margin: 20px 0;
+  margin-left: 60px;
+}
+
+.bottom-section ul li {
+  line-height: 1.8;
+  letter-spacing: 1.2px;
+}
+
+footer {
+  margin: 50px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer a {
+  color: #f00;
+}
